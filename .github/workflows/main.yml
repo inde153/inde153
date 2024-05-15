@@ -6,6 +6,9 @@ on:
   push:
     branches:
     - master
+    - main
+    - dev
+    - feature
     
 jobs:
   generate:
